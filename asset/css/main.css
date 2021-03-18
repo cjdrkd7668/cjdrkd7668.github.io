@@ -1,0 +1,226 @@
+/* 포트폴리오의 CSS */
+
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Chosunilbo_myungjo';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Chosunilbo_myungjo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body, a, p, li, span {
+    font-family: 'GmarketSansMedium';
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'GmarketSansBold';
+}
+
+body {
+    width: 1200px;
+    margin: auto;
+}
+
+.ckp-side-bar {
+    width: 100px;
+    height: 100%;
+    float: left;
+    position: fixed;
+    border-bottom: 30px solid #b7ff96;
+}
+
+.ckp-side-bar .menu {
+    margin-left: 10px;
+}
+
+.ckp-side-bar a:nth-child(2) {
+    margin-top: 50px;
+}
+
+.ckp-side-bar a {
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+    display: block;
+    margin-top: 20px;
+    padding-bottom: 3px;
+}
+
+.ckp-container {
+    margin-left: 10%;
+    width: 90%;
+    max-width: 900px;
+    float: left;
+}
+
+.ckp-main {
+    height: 100vh;
+    min-height: 900px;
+    background-image: url(/asset/images/ckp_main.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: auto 900px;
+    background-position-x: 10vw;
+    text-align: right;
+    padding: 70px 40px;
+}
+
+.ckp-main div {
+    font-family: 'GmarketSansBold';
+    font-size: 3em;
+    text-shadow: 2px 2px 2px #444;
+    color: white;
+    letter-spacing: 0.1rem;
+    margin-bottom: 5px;
+}
+
+.ckp-container > span {
+    word-spacing: -.7em;
+    float: right;
+}
+
+.mini-title {
+    margin-top: 100px;
+    display: inline-block;
+    border-bottom: 1px solid #888;
+    margin-bottom: 25px;
+}
+
+.mini-title + p {
+    font-size: 16px;
+}
+
+.simple-intro {
+    margin-top: 40px;
+    text-align: center;
+    background-color: #e1ffe1;
+}
+
+.simple-intro img{
+    width: 250px;
+    height: 350px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    background-color: #fff;
+    float: right;
+}
+
+.simple-intro > div {
+    width: 650px;
+    margin-top: 160px;
+    padding: auto;
+    float: right;
+}
+
+.simple-intro p {
+    font-family: 'Chosunilbo_myungjo';
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.simple-intro::after {
+    content: '';
+	display: block;
+	clear: both;
+}
+
+.carousel-inner .item img {
+    width: 900px;
+    height: 500px;
+}
+
+#project-panel {
+    margin-top: 25px;
+}
+
+#project-panel .nav > li > a:hover, 
+#project-panel .nav > li > a:focus {
+    background-color: #e1ffe1;
+}
+
+.tab-content {
+    border: 1px solid #eee;
+    border-top: 0px;
+}
+
+.tab-pane {
+    padding: 20px 10px;
+    padding-bottom: 0px;
+}
+
+.tab-pane span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#carousel-projects {
+    padding: 15px;
+    border-top: 0px;
+}
+
+#carousel-projects .carousel-control {
+    background-image: none;
+    color: #222;
+}
+
+#carousel-projects .carousel-caption {
+    background-color: rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.education .simple-intro img {
+    float: left;
+}
+
+.education .simple-intro > div {
+    margin-top: 60px;
+}
+
+#toeic {
+    font-size: 0.25em;
+    float: right;
+}
+
+.contact .ckp-main {
+    height: 80vh;
+    min-height: 650px;
+    background-image: url(/asset/images/ckp_contact.jpg);
+    background-size: auto 1200px;
+    background-position: 10vw -10vh;
+    text-align: center;
+}
+
+.contact .ckp-main span {
+    font-size: 2em;
+    font-weight: bold;
+    display: block;
+    margin: 15px;
+}
+
+.footer {
+    width: 1020px;
+    height: 35px;
+    background-color: #b7ff96;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 10px;
+}
