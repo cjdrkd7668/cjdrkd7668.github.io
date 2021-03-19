@@ -5,10 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cheonggang Lee's Portpolio</title>
+    <link rel="shortcut icon" href="./favicon.ico">
+    <link rel="icon" href="./favicon.ico">
     <link rel="stylesheet" href="./asset/css/bootstrap.css">
     <script src="./asset/js/jquery-1.12.4.js"></script>
     <script src="./asset/js/bootstrap.js"></script>
     <link rel="stylesheet" href="./asset/css/main.css">
+
 </head>
 <body>
 
@@ -253,7 +256,6 @@
 
       $(document).scroll(function() {
         sct = $(document).scrollTop();
-        console.log(sct);
         $('#ckp-side-bar').css("borderBottom", 125 - ($(document).scrollTop() * 100 / ($(document).outerHeight() - $(window).outerHeight())) + "px solid #b7ff96");
 
         if(sct > 3200) {
@@ -292,10 +294,6 @@
           top: "0px",
           opacity: "1"
         })
-
-
-
-
       })
 
       
