@@ -98,15 +98,15 @@ body {
 }
 
 #subject1 {
-    transition-delay: 0s;
+    transition-delay: 0.3s;
 }
 
 #subject2 {
-    transition-delay: 0.5s;
+    transition-delay: 0.8s;
 }
 
 #subject3 {
-    transition-delay: 1s;
+    transition-delay: 1.3s;
 }
 
 .ckp-container > span {
